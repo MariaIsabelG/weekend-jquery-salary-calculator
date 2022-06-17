@@ -8,3 +8,4 @@ function onReady(){
 
 }
 
+// input that collects data employee first name, last name, ID number, job title, annual salary
