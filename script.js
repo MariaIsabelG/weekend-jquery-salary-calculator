@@ -8,7 +8,8 @@ $( '#add-btn' ).on( 'click', addEmployee );
 
 }
 
-// input that collects data employee first name, last name, ID number, job title, annual salary
+// collects input data
+// outputs data in a table
 function addEmployee(){
 
     //let newEmployee = [name, lastName, identify, jobTitle, salary] 
