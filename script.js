@@ -15,8 +15,7 @@ $( 'tbody' ).on( 'click', '.delete-btn', deleteEmployee );
 // collects input data
 // outputs data in a table
 function addEmployee(){
-
-    //let newEmployee = [name, lastName, identify, jobTitle, salary] 
+  
 let name = $( '#name-in' ).val();
 let lastName = $( '#last-name').val();
 let identify = $( '#identify' ).val();
@@ -31,9 +30,8 @@ $( '#name-in' ).val( '' );
 $( '#last-name').val( '' );
 $( '#identify' ).val( '' );
 $( '#job-title' ).val( '' );
-//$( '#salary' ).val( '' );
 
-}
+};
 
 function deleteEmployee(){
 
@@ -47,6 +45,7 @@ function calcTotal(){
 
     let newSalary = $( '#salary' ).val(); 
     totalCost += Number( newSalary );
-    $( '#total-cost' ).text( totalCost )
+    $( '#total-cost' ).text( totalCost );
+    $( '#salary' ).val( '' )
 
 }

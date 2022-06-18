@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(221, 156, 247)
+}
+
+h2{
+    color: rgb(10, 35, 197);
+    font-family ;
+    font-weight: bold;
+}
+
+#name-in, #last-name, #identify, #job-title, #salary{
+    border-color: aqua;
+
+}
+
+
+
+
+#data-table, th{
+    
+    border: 1px solid;
+
+
+}
