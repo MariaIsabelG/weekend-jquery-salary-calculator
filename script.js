@@ -4,7 +4,8 @@ $( document ).ready( onReady );
 function onReady(){
     console.log( 'jQuery is loaded' );// testing that jquery loaded
 
-$( '#add-btn' ).on( 'click', addEmployee, calcTotal  ); // when user clicks on add employee button, run the addEmployee and calcTotal function
+$( '#add-btn' ).on( 'click', addEmployee  );// when user clicks on add employee button, run the addEmployee
+$( '#add-btn' ).on( 'click', calcTotal  ); // when user clicks on add employee button, run the calcTotal function
 $( 'tbody' ).on( 'click', '.delete-btn', deleteEmployee ); // when the delete button is present in the table body, run deleteEmployee function
 
 };
