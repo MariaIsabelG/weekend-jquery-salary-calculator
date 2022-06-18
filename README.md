@@ -8,7 +8,7 @@ Duration: 9 hours
 
 Objective: 
 
-- To sum up employee salaries by gathering the data through the use of user input and a table.
+- To sum up employee salaries by gathering data through the use of user input and a table.
 
 Problem solved:
 
@@ -30,7 +30,7 @@ jQuery functionality:
 
 ** Gathers all the input data
 ** Adds a row in the table 
-** Outputs all the user data and add a Delete Button to the new row in the Data Table
+** Outputs all the user data and adds a Delete Button to the new row in the Data Table
 ** Clears the values in the inputs (except for the salary input)
 
 * calcTotal function: 
@@ -42,7 +42,6 @@ jQuery functionality:
 The Total Cost is updated every time a new salary is added. The Total Cost will turn red if its value is more than $20,000. 
 
 Finally, when a user clicks on the Delete Button created in each new row of the Data Table, it will remove that row of data.
-
 
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
