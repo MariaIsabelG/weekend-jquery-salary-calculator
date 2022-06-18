@@ -4,9 +4,15 @@ JQuery Salary Calculator
 
 ## Description
 
+Duration: 9 hours
+
 Objective: 
 
-To sum up employee salaries by gathering the data through the use of user input data and a table.
+- To sum up employee salaries by gathering the data through the use of user input and a table.
+
+Problem solved:
+
+- Created a page that gathers user input data and adds up values.
 
 Layout: 
 
@@ -18,28 +24,25 @@ Layout:
 
 jQuery functionality:
 
-The user inputs their data in the inputs at the top of the page. When they click the Add Button, two functions are triggered:
+- The user inputs their data in the inputs at the top of the page. When they click the Add Button, two functions are triggered:
 
 * addEmployee function:
 
-- Gathers all the input data
-- Adds a row in the table 
-- Outputs all the user data to the Data Table
-- Adds a Delete Button to each row created
-- Clears the values in the inputs (except for the salary input)
+** Gathers all the input data
+** Adds a row in the table 
+** Outputs all the user data and add a Delete Button to the new row in the Data Table
+** Clears the values in the inputs (except for the salary input)
 
 * calcTotal function: 
 
-- Gathers the salary input value
-- Adds it to the Total Cost
-- Clears the values in the salary input
+** Gathers the salary input value
+** Adds it to the Total Cost
+** Clears the values in the salary input
+
+The Total Cost is updated every time a new salary is added. The Total Cost will turn red if its value is more than $20,000. 
+
+Finally, when a user clicks on the Delete Button created in each new row of the Data Table, it will remove that row of data.
 
 
-
-
-
-
-This project takes various user inputs of two diffirent types (text and number). A button is used to gather that input and place it in a table with specific headings 
-Your project description goes here. What problem did you solve? How did you solve it?
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/readme-template/blob/master/README.md).
