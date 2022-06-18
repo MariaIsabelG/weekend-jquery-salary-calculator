@@ -4,6 +4,7 @@ $( document ).ready( onReady );
 function onReady(){
     console.log( 'jQuery is loaded' );
 $( '#add-btn' ).on( 'click', addEmployee );
+$( '#add-btn' ).on( 'click', calcTotal );
 $( 'tbody' ).on( 'click', '.delete-btn', deleteEmployee );
 
 
@@ -30,7 +31,8 @@ $( '#name-in' ).val( '' );
 $( '#last-name').val( '' );
 $( '#identify' ).val( '' );
 $( '#job-title' ).val( '' );
-$( '#salary' ).val( '' );
+//$( '#salary' ).val( '' );
+
 }
 
 function deleteEmployee(){
@@ -39,6 +41,12 @@ function deleteEmployee(){
 
 };
 
+let totalCost = 0;
+
 function calcTotal(){
-    $( '#salary' ).
+
+    let newSalary = $( '#salary' ).val(); 
+    totalCost += Number( newSalary );
+    $( '#total-cost' ).text( totalCost )
+
 }
