@@ -48,4 +48,8 @@ function calcTotal(){
     $( '#total-cost' ).text( totalCost );
     $( '#salary' ).val( '' )
 
+if( totalCost>20000){
+    $( '#total-title' ).css( 'color', 'red');
+}
+
 }
